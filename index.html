@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>
-            Welcome to my website!
-        </h1>
+      <nav>
+        <ul>
+          <a href="#about-me">
+            <li>About Me</li>
+          </a>
+          <a href="">
+            <li>Contact</li>
+          </a>
+          <a href="">
+            <li>Portfolio</li>
+          </a>
+        </ul>
+      </nav>
+      <h1>Welcome to my website!</h1>
     </header>
 
-    <main></main>
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/640px-SpongeBob_SquarePants_character.svg.png"
+          height="200"
+          width="200"
+          alt=""
+        />
+        <p>My name is Spongebob and I like to drive!</p>
+      </section>
+      <section id="contact-me">
+        <div id="contact-block">
+          <label for="name">PLease Tell us your name:</label>
+          <input type="text" id="name" />
+        </div>
+        <div id="contact-block">
+          <label for="email">Please put your email here:</label>
+          <input type="text" id="email" />
+        </div>
+        <div id="contact-block">
+          <label for="message"> Leave us a message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+        </div>
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
